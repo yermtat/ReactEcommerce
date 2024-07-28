@@ -6,9 +6,15 @@ import Footer from "./Footer";
 export default function Main() {
   return (
     <div>
-      <Navbar />
-      <Outlet />
-      <Footer />
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Outlet className="outlet" />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

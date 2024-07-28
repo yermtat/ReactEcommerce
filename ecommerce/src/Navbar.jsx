@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav class="bg-black p-4 fixed top-0 w-screen">
+      <nav class="bg-black p-4 w-screen">
         <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center">
           <div class="text-white font-bold text-3xl mb-4 lg:mb-0 transition-colors duration-300 hover:text-orange-600 hover:cursor-pointer">
             Furniture
