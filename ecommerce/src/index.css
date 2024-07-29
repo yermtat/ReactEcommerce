@@ -16,3 +16,7 @@ footer {
   position: relative;
   top: 68px;
 }
+
+.slick-slide > div {
+  margin: 10px;
+}

@@ -5,15 +5,18 @@ import Main from "./Main";
 import News from "./News";
 import Login from "./Login";
 import Register from "./Register";
+import { getProducts as productsLoader } from "./Data";
 
 const children = [
   {
     path: "/",
     element: <Home />,
+    loader: productsLoader,
   },
   {
     path: "home",
     element: <Home />,
+    loader: productsLoader,
   },
   {
     path: " about",

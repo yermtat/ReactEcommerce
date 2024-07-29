@@ -28,17 +28,19 @@ export default function Footer() {
               <rect x="14" y="11" width="7" height="12"></rect>
             </svg>
             <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-              Company
+              Furniture
             </span>
           </a>
           <div class="mt-6 lg:max-w-sm">
             <p class="text-sm text-gray-800">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
+              We specialize in offering a diverse range of high-quality
+              furniture designed to transform your space. From elegant living
+              room sets to functional and stylish bedroom pieces, our collection
+              is crafted to meet your unique tastes and needs.
             </p>
             <p class="mt-4 text-sm text-gray-800">
-              Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-              beatae vitae dicta sunt explicabo.
+              Discover the perfect blend of aesthetics and functionality with
+              our expertly curated selections.
             </p>
           </div>
         </div>
@@ -161,10 +163,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <p class="mt-4 text-sm text-gray-500">
-            Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-            spare ribs salami.
-          </p>
+          <p class="mt-4 text-sm text-gray-500">Transform Your Space</p>
         </div>
       </div>
     </div>
