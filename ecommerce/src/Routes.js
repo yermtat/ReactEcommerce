@@ -19,7 +19,7 @@ const children = [
     loader: productsLoader,
   },
   {
-    path: " about",
+    path: "about",
     element: <About />,
   },
   {

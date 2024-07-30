@@ -55,19 +55,13 @@ export default function Navbar() {
                 Catalog
               </a>
             </Link>
-            <Link>
-              <a
-                href="/about"
-                class="text-white  px-4 py-2 transition-colors duration-300 hover:text-orange-600"
-              >
+            <Link to="/about">
+              <a class="text-white  px-4 py-2 transition-colors duration-300 hover:text-orange-600">
                 About
               </a>
             </Link>
-            <Link>
-              <a
-                href="/news"
-                class="text-white  px-4 py-2 transition-colors duration-300 hover:text-orange-600"
-              >
+            <Link to="/news">
+              <a class="text-white  px-4 py-2 transition-colors duration-300 hover:text-orange-600">
                 News
               </a>
             </Link>

@@ -1,11 +1,16 @@
 import React from "react";
 import bgPic from "./assets/bg.jpg";
+import bgSM from "./assets/bgSM.jpg";
 
 export default function Login() {
   return (
     <div>
       <div className="w-full relative mb-20">
-        <img src={bgPic} className=" absolute -z-20" />
+        <img
+          src={bgPic}
+          className=" absolute -z-20 sm:hidden md:hidden lg:block"
+        />
+        <img src={bgSM} className=" absolute -z-20 lg:hidden" />
         <div class="h-screen flex justify-center items-center dark:bg-gray-900">
           <div class="grid gap-8">
             <div id="back-div" class="  rounded-[70px] m-4">

@@ -6,6 +6,7 @@ import { useLoaderData } from "react-router-dom";
 // import { getProducts } from "./Data";
 import { products } from "./Data";
 import bgPicture from "./assets/bg.jpg";
+import bgSM from "./assets/bgSM.jpg";
 
 // export async function dataLoader() {
 //   return await getProducts();
@@ -25,13 +26,17 @@ export default function Home() {
   return (
     <div>
       <div className="w-full relative">
-        <img src={bgPicture} className=" absolute -z-20" />
+        <img
+          src={bgPicture}
+          className=" absolute -z-20 sm:hidden md:hidden lg:block"
+        />
+        <img src={bgSM} className=" absolute -z-20 lg:hidden" />
 
         <div>
-          <div class="h-screen flex justify-center items-center dark:bg-gray-900 absoulute z-1">
+          <div class="h-screen flex justify-center items-center dark:bg-gray-900 absoulute z-1 ">
             <div class="grid gap-8">
               <div id="back-div" class="  rounded-[70px] m-4">
-                <div class="border-[70px] border-transparent rounded-[70px] bg-gray-400 shadow-lg xl:p-10 2xl:p-10 lg:p-10 md:p-10 sm:p-2 m-2 bg-opacity-50">
+                <div class="border-[70px] border-transparent rounded-[70px] bg-gray-400 shadow-lg xl:p-10 2xl:p-10 lg:p-10 md:p-10 sm:p-2 m-2 bg-opacity-50 sm:block">
                   <h1 className="text-orange-300 text-bold text-5xl text-center  ">
                     Transform Your Space
                   </h1>
@@ -56,9 +61,9 @@ export default function Home() {
                 <div className="flex justify-evenly">
                   <img
                     src={x.imagePath}
-                    className="w-1/3 m-2 flex justify-center rounded-full shadow-md"
+                    className="lg:w-1/3 m-2 flex justify-center rounded-xl shadow-md md:w-full"
                   />
-                  <label className="m-20 text-center bold text-3xl font-serif">
+                  <label className="m-20 text-center bold text-3xl font-serif sm:hidden md:hidden lg:block">
                     <p>{x.name}</p>
                     <p>${x.price}</p>
                   </label>
